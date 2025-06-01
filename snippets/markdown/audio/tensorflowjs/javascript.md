@@ -12,7 +12,7 @@ Learn more about how to use the code snippet on [github](https://github.com/goog
     // https://github.com/tensorflow/tfjs-models/tree/master/speech-commands
 
     // the link to your model provided by Teachable Machine export panel
-    const URL = "{{URL}}";
+    const URL = "{{https://teachablemachine.withgoogle.com/models/e7R8072D5/}}";
 
     async function createModel() {
         const checkpointURL = URL + "model.json"; // model topology
